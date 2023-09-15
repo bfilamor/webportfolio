@@ -92,6 +92,7 @@ body {
 #customNav .nav-link {
     padding-bottom:5px;
     border-bottom:2px solid transparent;
+    font-weight:600;
 }
 
 #customNav .nav-link:hover {
