@@ -247,6 +247,21 @@ body {
     border-radius: 0.3rem;
 }
 
+#fullstack-overlay {
+    opacity:0;
+    top:0;
+    left:0;
+    right:0;
+    height:100%!important;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+}
+
+#fullstack-card:hover #fullstack-overlay {
+    opacity: 1;
+}
+
 @media(max-width:991px) {
     #chevronHolder {
         bottom:10px;
